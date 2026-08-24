@@ -90,3 +90,96 @@ header {
     background-color: #555;
     color: white;
 }
+section {
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    padding: 20px;
+}
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #217dbb;
+}
+
+
+/* ============================================
+   5. FORMULÁRIO
+   ============================================ */
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+
+/* ============================================
+   6. BARRAS DE PROGRESSO
+   ============================================ */
+
+.barra-progresso {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progresso {
+    background-color: #3498db;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+/* ============================================
+   7. MODO ESCURO
+   ============================================ */
+
+body.modo-escuro {
+    background-color: #222;
+    color: white;
+}
+
+body.modo-escuro section {
+    background-color: #333;
+    color: white;
+}
+
+body.modo-escuro input,
+body.modo-escuro textarea {
+    background-color: #444;
+    color: white;
+    border-color: #666;
+}
+
+body.modo-escuro .barra-progresso {
+    background-color: #555;
+}
+
+
+/* ============================================
+   8. FOOTER
+   ============================================ */
+
+footer {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

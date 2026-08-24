@@ -44,6 +44,13 @@ btnVisita.addEventListener("click", function() {
 //    - Leia o valor: elemento.getAttribute('data-valor')
 //    - Aplique a largura: elemento.style.width = valor + '%'
 //
+let barras = document.querySelectorAll(".progresso");
+
+barras.forEach(function(elemento) {
+    let valor = elemento.getAttribute("data-valor");
+
+    elemento.style.width = valor + "%";
+});
 // 4. FORMULARIO (#form-contato)
 //    - Pegue o formulario com getElementById()
 //    - Adicione addEventListener('submit', function(evento) { })
