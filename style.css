@@ -63,3 +63,30 @@
     background-color: #555;
     color: white;
 }
+header {
+    background-color: #3498db;
+    text-align: center;
+    padding: 30px;
+}
+
+
+/* ============================================
+   MODO ESCURO
+   ============================================ */
+
+.modo-escuro {
+    background-color: #222;
+    color: white;
+}
+
+.modo-escuro header,
+.modo-escuro section,
+.modo-escuro footer {
+    background-color: #333;
+    color: white;
+}
+
+.modo-escuro button {
+    background-color: #555;
+    color: white;
+}

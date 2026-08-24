@@ -29,7 +29,15 @@ btnTema.addEventListener("click", function() {
 //    - Pegue o botao e o span com getElementById()
 //    - No clique do botao, incremente a variavel (visitas++)
 //    - Atualize o texto do span: span.textContent = visitas
-//
+//let visitas = 0;
+
+let btnVisita = document.getElementById("btn-visita");
+let numeroVisitas = document.getElementById("numero-visitas");
+
+btnVisita.addEventListener("click", function() {
+    visitas++;
+    numeroVisitas.textContent = visitas;
+});
 // 3. BARRAS DE PROGRESSO (.progresso)
 //    - Pegue todos os elementos com document.querySelectorAll('.progresso')
 //    - Use um for ou forEach para percorrer cada um
