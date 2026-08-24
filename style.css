@@ -8,6 +8,7 @@
       - Mude a cor de fundo (background-color)
       - Escolha uma fonte bonita (font-family)
       - Defina uma cor de texto padrao (color)
+   
 
    2. HEADER
       - De uma cor de fundo diferente
@@ -46,3 +47,19 @@
 
    Bom trabalho!
 */
+.modo-escuro {
+    background-color: #222;
+    color: white;
+}
+
+.modo-escuro header,
+.modo-escuro section,
+.modo-escuro footer {
+    background-color: #333;
+    color: white;
+}
+
+.modo-escuro button {
+    background-color: #555;
+    color: white;
+}
