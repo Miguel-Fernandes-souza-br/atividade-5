@@ -62,3 +62,22 @@ barras.forEach(function(elemento) {
 //    - Limpe os campos depois: campo.value = ''
 //
 // Comece pelo exercicio 1 e va ate o 4. Boa sorte!
+let formulario = document.getElementById("form-contato");
+
+formulario.addEventListener("submit", function(evento) {
+    evento.preventDefault();
+
+    let nome = document.getElementById("nome");
+    let mensagem = document.getElementById("mensagem");
+    let resposta = document.getElementById("resposta-form");
+
+    if (nome.value === "" || mensagem.value === "") {
+        alert("Preencha todos os campos!");
+        return;
+    }
+
+    resposta.textContent = `Obrigado, ${nome.value}! Sua mensagem foi enviada.`;
+
+    nome.value = "";
+    mensagem.value = "";
+});
